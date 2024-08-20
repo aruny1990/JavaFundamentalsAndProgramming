@@ -8,8 +8,9 @@ public class CharLiterals {
 		//char ch2 = "a"; //invalid
 		//char ch3 = 'ab'; //invalid
 		char ch4 = 97;
-		//System.out.println(ch4);
 		char ch5 = 0XFace;
+		System.out.println("Ch5 is: "+(int)ch5+"This is carriage return");
+		//char ch5 = 0XFace;
 		//System.out.println(ch5); //valid
 		char ch6 = 65535;//valid
 		//System.out.println(ch6);
@@ -20,7 +21,7 @@ public class CharLiterals {
 		//System.out.println(ch8);
 		char ch9=0;
 		System.out.println(ch9);
-		char cht = '\u0061';
+		char cht = '\r';
 		System.out.println(cht);
 		char chi = '\u0062';
 		System.out.println(chi);
