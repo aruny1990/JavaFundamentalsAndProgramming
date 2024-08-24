@@ -110,9 +110,12 @@ class HashMap<K, V> {
         if (prev != null) {
             prev.next = head.next;
         } else {
+        	System.out.println("head next value is "+head.next);
             bucketArray.set(bucketIndex, head.next);
         }
-
+        
+        
+        System.out.println("head value is "+head.value);
         return head.value;
     }
 

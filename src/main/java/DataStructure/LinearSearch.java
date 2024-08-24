@@ -23,7 +23,7 @@ public class LinearSearch {
         int[] arr = {1,2,3,6,7,9,10,11,13};
 
         // Target element to search for
-        int target = 11;
+        int target = 13;
 
         // Call linearSearch method
         int result = linearSearch(arr, target);
