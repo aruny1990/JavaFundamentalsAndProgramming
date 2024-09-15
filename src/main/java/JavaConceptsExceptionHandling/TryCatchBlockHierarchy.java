@@ -14,7 +14,7 @@ public class TryCatchBlockHierarchy {
 		//ArithmeticException. 
 		//It is already handled by the catch block for 
 		//Exception
-//
+
 //		catch(ArithmeticException e) {
 //			e.printStackTrace();
 //		}

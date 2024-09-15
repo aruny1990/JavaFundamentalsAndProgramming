@@ -8,7 +8,7 @@ public class ArrayEx8 {
 		String[] argh = {"X","Y","Z"};
 		args = argh;
 		for(String s:args) {
-			System.out.print(s.toLowerCase()+"\s");
+			System.out.print(s.toLowerCase()+"\\s");
 		}
 	}
 

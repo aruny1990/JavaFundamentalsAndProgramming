@@ -11,6 +11,7 @@ public class ExceptionHandlingEx1 {
 	public static void doStuff() {
 		// TODO Auto-generated method stub
 		doMoreStuff();
+		
 	}
 
 	public static void doMoreStuff() {
